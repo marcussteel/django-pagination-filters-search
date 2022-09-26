@@ -19,7 +19,6 @@ from .models import Student, Path
 # 2. yöntem
 
 
-
 class StudentSerializer(serializers.ModelSerializer):
     # full_name=serializers.SerializerMethodField()
     # number_name=serializers.SerializerMethodField()
